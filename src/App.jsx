@@ -1,5 +1,6 @@
 import lighthouse from './assets/lighthouse.svg'
 import ground from './assets/ground.png'
+import resume from './assets/CindyWuResumeS27.pdf'
 import './App.css'
 
 
@@ -16,7 +17,7 @@ export default function LighthouseScene() {
               <h1 className="name">cindy wu</h1>
               <nav className="top-links">
                 <a href="#menu">info</a>
-                <a href="/resume.pdf" target="_blank" rel="noreferrer">resume</a>
+                <a href={resume} target="_blank" rel="noreferrer">resume</a>
               </nav>
             </div>
           </section>
