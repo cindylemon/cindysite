@@ -1,6 +1,7 @@
 import lighthouse from './assets/lighthouse.svg'
 import ground from './assets/ground.png'
 import resume from './assets/CindyWuResumeS27.pdf'
+import minion from './assets/otto.svg'
 import './App.css'
 
 
@@ -10,6 +11,8 @@ export default function LighthouseScene() {
       <div className="scene">
         <img src={ground} alt="the rocks and the water" className="layer ground-img" />
         <img src={lighthouse} alt="A red and white lighthouse" className="layer lighthouse-img" />
+        <img src={minion} alt="minion swimming in the water" className='layer minion-img' />
+        {/* water rippling out of the minion? */}
 
         <div className="screens">
           <section id="top" className="screen">
