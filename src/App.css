@@ -57,6 +57,13 @@ body {
   width: auto;
 }
 
+.minion-img {
+  left: 65%;
+  bottom: 10%;
+  width: 15%;
+  height: auto;
+}
+
 /* sections layer: sits on top of the art, split into three equal rows */
 .screens {
   position: absolute;
