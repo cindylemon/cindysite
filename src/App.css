@@ -110,7 +110,7 @@ body {
 .main-links {
   position: absolute;
   top: 30%;
-  left: 46%;
+  left: 47%;
   display: flex;
   flex-direction: column;
   align-items: center;     
@@ -122,8 +122,8 @@ body {
 /* screen 3: thank you */
 .thanks {
   position: absolute;
-  top: 30%;
-  left: 46%;
+  top: 40%;
+  left: 50%;
   margin: 0;
   font-size: 5cqw;
 }
