@@ -29,7 +29,6 @@ body {
 .page {
   background-color: #00B2FF;
   width: 100%;
-  min-height: 100vh;
 }
 
 /* the tall backdrop that holds the art and the sections */
