@@ -8,21 +8,30 @@ export default function LighthouseScene() {
     <div className="page">
       <div className="scene">
         <img src={ground} alt="the rocks and the water" className="layer ground-img" />
-
         <img src={lighthouse} alt="A red and white lighthouse" className="layer lighthouse-img" />
 
-        <div className="text">
-          <h1 className="name">cindy wu</h1>
-          <nav className="top-links">
-            <a href="#info">info</a>
-            <a href="#resume">resume</a>
-          </nav>
-          <nav className="main-links">
-            <a href="#about">about</a>
-            <a href="#experiences">experiences</a>
-            <a href="#projects">projects</a>
-          </nav>
-          <p className="thanks">thank you!</p>
+        <div className="screens">
+          <section id="top" className="screen">
+            <div className="title-block">
+              <h1 className="name">cindy wu</h1>
+              <nav className="top-links">
+                <a href="#menu">info</a>
+                <a href="/resume.pdf" target="_blank" rel="noreferrer">resume</a>
+              </nav>
+            </div>
+          </section>
+
+          <section id="menu" className="screen">
+            <nav className="main-links">
+              <a href="#about">about</a>
+              <a href="#experiences">experiences</a>
+              <a href="#projects">projects</a>
+            </nav>
+          </section>
+
+          <section id="thanks" className="screen">
+            <p className="thanks">thank you!</p>
+          </section>
         </div>
       </div>
     </div>
