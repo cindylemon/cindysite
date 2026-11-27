@@ -19,7 +19,7 @@ export default function LighthouseScene() {
             <div className="title-block">
               <h1 className="name">cindy wu</h1>
               <nav className="top-links">
-                <a href="#menu">info</a>
+                <a href="#menu" className='info-link'>info</a>
                 <a href={resume} target="_blank" rel="noreferrer">resume</a>
               </nav>
             </div>
